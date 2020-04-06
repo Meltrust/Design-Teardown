@@ -1,58 +1,116 @@
 body {
-    box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 nav {
-    display: flex;
-    height: 30vh;
-    width: 100%;
-    align-items: center;
-    background: grey;
+  display: flex;
+  height: 30vh;
+  width: 100%;
+  align-items: center;
+  background: grey;
 }
 
 .nav-items {
-    flex: 1;
-    font-size: 30px;
-    font-weight: bold;
+  flex: 1;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .nav-first {
-    flex: 1;
-    font-size: 40px;
-    margin-left: 70px;
-    font-weight: bold;
+  flex: 1;
+  font-size: 40px;
+  margin-left: 70px;
+  font-weight: bold;
 }
 
 .nav-last {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-last p {
-    border: 2px solid white;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-}   
+  border: 2px solid white;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
 
 .banner {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 30vh;
-    align-items: center;
-    justify-content: center;
- }
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+}
 
- .banner div {
-     font-weight: bold;
-     background: grey;
-     padding: 10px;
-     width: fit-content;
-     font-size: 28px;
- }
+.banner div {
+  font-weight: bold;
+  background: grey;
+  padding: 10px;
+  width: fit-content;
+  font-size: 28px;
+}
 
- 
+.new_articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px 500px;
+  row-gap: 0px;
+  column-gap: 0px;
+  margin-bottom: 50px;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.article {
+  background-color: gray;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.author {
+  margin-left: 13%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.author span {
+  font-weight: 100;
+}
+
+.desc {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.comment {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.lorem {
+  font-size: 21px;
+  margin-right: 17px;
+}
+
+.related {
+  margin: 0 auto;
+  width: 90%;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+  align-items: center;
+}
+
+.rel-art {
+  width: 25%;
+}
+
+.rel-time {
+  font-weight: 100;
+}

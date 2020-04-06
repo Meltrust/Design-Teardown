@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    background: grey;
+}
+
+.nav-items {
+    flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-first {
+    flex: 1;
+    font-size: 40px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.nav-last {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-last p {
+    border: 2px solid white;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}   
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .banner div {
+     font-weight: bold;
+     background: grey;
+     padding: 10px;
+     width: fit-content;
+     font-size: 28px;
+ }
+
+ 

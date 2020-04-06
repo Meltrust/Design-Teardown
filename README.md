@@ -1,16 +1,18 @@
-# smithemas_youtube_webpage
+# Design Teardown
+
+This is a heat map of the webpage at [Smashingmagazine.com](https://www.smashingmagazine.com/)
+
+Additional description about the project and its features.
 
 ![screenshot]()
-
-This is a webpage that looks so similar to youtube but it isn't the real youtube you know, don't get confused. It's just that we are great web developers so we can do the trick.
-
 ## Built With
 
 - HTML,
 - CSS
 
 ### Milestone
-To create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.
+
+- To create a grayscale heat map of the website at [Smashingmagazine.com](https://www.smashingmagazine.com/) that indicates which elements have the greatest weight in the visual hierarchy.
 
 ## Live Webpage
 
@@ -25,7 +27,3 @@ To create a grayscale heat map of the website that indicates which elements have
 👤 **Miguel Tapia**
 
 - Github: [@Meltrust](https://github.com/Meltrust)
-
-## Show your support
-
-Give a ⭐️ if you like this project!

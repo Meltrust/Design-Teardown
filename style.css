@@ -8,7 +8,7 @@ nav {
   height: 30vh;
   width: 100%;
   align-items: center;
-  background: grey;
+  background: rgb(93, 93, 93);
 }
 
 .nav-items {
@@ -49,7 +49,7 @@ nav {
 
 .banner div {
   font-weight: bold;
-  background: grey;
+  background: rgb(53, 52, 52);
   padding: 10px;
   width: fit-content;
   font-size: 28px;
@@ -62,8 +62,8 @@ nav {
   row-gap: 0px;
   column-gap: 0px;
   margin-bottom: 50px;
-  padding-bottom: 10%;
   width: 100%;
+  font-family: 'Fredoka One';     
 }
 
 .article {
@@ -80,6 +80,7 @@ nav {
 
 .author span {
   font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .desc {
@@ -98,9 +99,9 @@ nav {
 }
 
 .related {
-  margin: 0 auto;
+  margin: 0 auto 100px;
   width: 90%;
-  background-color: gray;
+  background-color: rgb(194, 194, 194);
   display: flex;
   justify-content: space-around;
   height: 450px;
@@ -113,4 +114,89 @@ nav {
 
 .rel-time {
   font-weight: 100;
+  margin: 0 0 7px;
+  font-size: 14px;
+}
+
+.rel-head {
+  background: rgb(105, 105, 105);
+  color:black;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Fredoka One';  
+}
+
+.rel-auth {
+  color: rgb(100, 100, 100);
+  font-family: 'Fredoka One';
+  font-size: 20px;
+  margin: 0;
+}
+
+.rel-text {
+  background: rgb(153, 153, 153);
+}
+
+.members {
+  display: flex;
+  margin: 50px auto 50px;
+  width: 90%;
+  align-items: center;
+  height: 450px;
+  background-color: rgb(194, 194, 194);
+  border-radius: 10px 0 0 10px;
+}
+
+.members-left {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.members-text{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.members-right {
+  display: flex;
+  flex: 1.5;
+  height: 100%;
+  align-items: center;
+}
+
+.members-head {
+  font-family: 'Fredoka One';
+  font-size: 30px;
+  margin: 0;
+}
+
+.members-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.members-btn {
+  padding: 10px;
+  border: 2px solid white;
+  width: max-content;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.right-rel{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bottom-members{
+  display: flex;
+  width: 90%;
+  margin: 50px auto 0;
+  height: 300px;
 }

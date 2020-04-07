@@ -8,7 +8,7 @@ nav {
   height: 30vh;
   width: 100%;
   align-items: center;
-  background: rgb(93, 93, 93);
+  background: rgb(180, 180, 180);
 }
 
 .nav-items {
@@ -63,7 +63,7 @@ nav {
   column-gap: 0px;
   margin-bottom: 50px;
   width: 100%;
-  font-family: 'Fredoka One';     
+  font-family: "Fredoka One";
 }
 
 .article {
@@ -80,12 +80,13 @@ nav {
 
 .author span {
   font-weight: 100;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .desc {
   font-size: 40px;
   margin-bottom: 8px;
+  background-color: rgb(83, 83, 83);
 }
 
 .comment {
@@ -120,21 +121,21 @@ nav {
 
 .rel-head {
   background: rgb(105, 105, 105);
-  color:black;
+  color: black;
   font-size: 28px;
   font-weight: bold;
-  font-family: 'Fredoka One';  
+  font-family: "Fredoka One";
 }
 
 .rel-auth {
   color: rgb(100, 100, 100);
-  font-family: 'Fredoka One';
+  font-family: "Fredoka One";
   font-size: 20px;
   margin: 0;
 }
 
 .rel-text {
-  background: rgb(153, 153, 153);
+  background: rgb(168, 168, 168);
 }
 
 .members {
@@ -158,7 +159,7 @@ nav {
   border-radius: 10px;
 }
 
-.members-text{
+.members-text {
   width: 75%;
   margin: 0 auto;
 }
@@ -171,7 +172,7 @@ nav {
 }
 
 .members-head {
-  font-family: 'Fredoka One';
+  font-family: "Fredoka One";
   font-size: 30px;
   margin: 0;
 }
@@ -189,14 +190,68 @@ nav {
   margin-top: 40px;
 }
 
-.right-rel{
+.right-rel {
   width: 80%;
   margin: 0 auto;
 }
 
-.bottom-members{
+.bottom-members {
   display: flex;
   width: 90%;
   margin: 50px auto 0;
   height: 300px;
+}
+
+.see-all {
+  font-size: 23px;
+  font-family: "PT Serif", serif;
+}
+
+.shipping-now-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(165, 165, 165);
+  align-items: center;
+  margin: 0 auto;
+  height: 1000px;
+  width: 100%;
+}
+
+.shipping-now-container-date {
+  margin: 100px 0 20px;
+  font-size: 25px;
+  background-color: gray;
+  width: 65%;
+  text-align: center;
+  font-family: "PT Serif";
+}
+
+.shipping-now-container-header {
+  font-family: "Fredoka One";
+  width: 65%;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(56, 56, 56);
+  margin-top: 0;
+  text-align: center;
+}
+
+.shipping-now-container-text {
+  width: 65%;
+  background-color: rgb(204, 204, 204);
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0;
+  font-family: "PT serif";
+}
+
+.shipping-now-container-learn {
+  border: 2px solid;
+  padding: 10px;
+  font-size: 20px;
+  border-color: rgb(204, 204, 204);
+  width: max-content;
+  word-spacing: -2px;
+  background-color: rgb(66, 66, 66);
 }

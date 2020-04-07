@@ -59,11 +59,11 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 500px 500px;
-  row-gap: 0px;
-  column-gap: 0px;
+  row-gap: 0;
+  column-gap: 0;
   margin-bottom: 50px;
   width: 100%;
-  font-family: "Fredoka One";
+  font-family: "Fredoka One", cursive;
 }
 
 .article {
@@ -124,12 +124,12 @@ nav {
   color: black;
   font-size: 28px;
   font-weight: bold;
-  font-family: "Fredoka One";
+  font-family: "Fredoka One", cursive;
 }
 
 .rel-auth {
   color: rgb(100, 100, 100);
-  font-family: "Fredoka One";
+  font-family: "Fredoka One", cursive;
   font-size: 20px;
   margin: 0;
 }
@@ -162,6 +162,8 @@ nav {
 .members-text {
   width: 75%;
   margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
 }
 
 .members-right {
@@ -172,14 +174,9 @@ nav {
 }
 
 .members-head {
-  font-family: "Fredoka One";
+  font-family: "Fredoka One", cursive;
   font-size: 30px;
   margin: 0;
-}
-
-.members-text {
-  font-size: 20px;
-  text-align: center;
 }
 
 .members-btn {
@@ -224,11 +221,11 @@ nav {
   background-color: gray;
   width: 65%;
   text-align: center;
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
 }
 
 .shipping-now-container-header {
-  font-family: "Fredoka One";
+  font-family: "Fredoka One", cursive;
   width: 65%;
   font-size: 40px;
   font-weight: bold;
@@ -243,7 +240,7 @@ nav {
   text-align: center;
   font-size: 25px;
   margin-top: 0;
-  font-family: "PT serif";
+  font-family: "PT Serif", serif;
 }
 
 .shipping-now-container-learn {

@@ -1,8 +1,9 @@
 # Design Teardown
 
-This is a heat map of the webpage at [Smashingmagazine.com](https://www.smashingmagazine.com/)
+This is a visual hierarchy heat map of the webpage [Smashingmagazine.com](https://www.smashingmagazine.com/)
 
-Additional description about the project and its features.
+The goal for this exercise is to start training to think in terms of visual hierarchy, typography and design principles.
+
 
 ![screenshot](Screenshot.png)
 ## Built With
@@ -10,7 +11,7 @@ Additional description about the project and its features.
 - HTML,
 - CSS
 
-### Milestone
+### Main Milestone
 
 - To create a grayscale heat map of the website at [Smashingmagazine.com](https://www.smashingmagazine.com/) that indicates which elements have the greatest weight in the visual hierarchy.
 

@@ -4,7 +4,7 @@ This is a heat map of the webpage at [Smashingmagazine.com](https://www.smashing
 
 Additional description about the project and its features.
 
-![screenshot]()
+![screenshot](Screenshot.png)
 ## Built With
 
 - HTML,
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Webpage
 
-[Click Here]()
+[Click Here](https://raw.githack.com/SmithVyne/Design-Teardown/heat-map/index.html)
 
 ## Authors
 

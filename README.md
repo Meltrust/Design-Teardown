@@ -19,12 +19,19 @@ The goal for this exercise is to start training to think in terms of visual hier
 
 [Click Here](https://raw.githack.com/SmithVyne/Design-Teardown/heat-map/index.html)
 
+## Future Features:
+
+- Implement responsive design.
+
 ## Authors
 
 👤 **Smith Nkereuwem**
 
 - Github: [@SmithVyne](https://github.com/smithvyne)
 
+
 👤 **Miguel Tapia**
 
 - Github: [@Meltrust](https://github.com/Meltrust)
+- Contact me: original.mtapia@outlook.com
+
